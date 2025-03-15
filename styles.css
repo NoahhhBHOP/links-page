@@ -98,4 +98,48 @@ button {
     background-position: center;
     background-size: cover;
   }
+
+  .thirdcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: rgb(103, 126, 37) 4px solid;
+    background-image: url(imgs/bg2.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .fourthcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: 4px solid rgb(154, 186, 61);
+    background-image: url(imgs/bg4.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .fifthcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: rgb(103, 126, 37) 4px solid;
+    background-image: url(imgs/bg5.png);
+    background-position: center;
+    background-size: cover;
+  }
   
+  .footer {
+    background-color: #f4f4f4;
+    border-bottom: 4px solid rgb(154, 186, 61);
+    color: rgb(9, 46, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    height: 120px;
+  }
