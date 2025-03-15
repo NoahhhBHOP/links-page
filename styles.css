@@ -31,9 +31,14 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    
+    padding: 10px; 
 }
+
+a {
+  text-decoration: none;
+  color: rgb(9, 46, 39);
+}
+
 .dumb {
     margin-right: auto;
 }
@@ -60,6 +65,7 @@ button {
     border-radius: 0.3em;
     font-size: 12px;
     cursor: pointer;
+    z-index: 2147483647;
   }
   
   button span {
@@ -76,16 +82,19 @@ button {
     color: #fff;
     border: 0.08em solid #ffffff;
     box-shadow: 0 0.4em 0.1em 0.019em #fff;
+    z-index: 2147483647;
   }
   
   button span:hover {
     transition: all 0.5s;
     transform: translate(0, 0.4em);
     box-shadow: 0 0 0 0 #fff;
+    z-index: 2147483647;
   }
   
   button span:not(hover) {
     transition: all 1s;
+    z-index: 2147483647;
   }
 
   .secondcontainer {
@@ -105,10 +114,19 @@ button {
     align-items: center;
     height: 600px;
     border-bottom: rgb(103, 126, 37) 4px solid;
-    background-image: url(imgs/bg2.png);
     background-position: center;
+    background-image: url(imgs/bgvid.mp4);
     background-size: cover;
+    overflow: hidden;
   }
+
+  source {
+    z-index: 0;
+  }
+
+  .video {
+  z-index: 0;
+ }
 
   .fourthcontainer {
     display: flex;
