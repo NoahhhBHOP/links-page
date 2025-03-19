@@ -108,18 +108,6 @@ button {
     background-size: cover;
   }
 
-  .thirdcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    border-bottom: rgb(103, 126, 37) 4px solid;
-    background-position: center;
-    background-image: url(imgs/bgvid.mp4);
-    background-size: cover;
-    overflow: hidden;
-  }
-
   source {
     z-index: 0;
   }
