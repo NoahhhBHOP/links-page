@@ -149,6 +149,17 @@ button {
     background-position: center;
     background-size: cover;
   }
+
+  .sixthcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: 4px solid rgb(154, 186, 61);
+    background-image: url(imgs/bg5.png);
+    background-position: center;
+    background-size: cover;
+  }
   
   .footer {
     background-color: #f4f4f4;
